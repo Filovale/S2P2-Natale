@@ -1,0 +1,68 @@
+body {
+    background-color:rgb(230, 205, 254);
+    font-family: Arial;
+}
+
+#ciao {
+    height: 180px;
+}
+
+#sant {
+    height:500px;
+    width: 1000px;
+}
+
+.custom-img-class {
+    width: 100%; /* Imposta la larghezza desiderata */
+    max-width: 700px; /* Larghezza massima dell'immagine */
+    height: auto; /* Altezza automatica mantenendo l'aspetto proporzionato */
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+  
+.overlay-text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
+
+.overlay-text h1 {
+    font-size: 50px;
+}
+
+.overlay-text p {
+    font-size: 25px;
+    font-style: italic;
+}
+
+#jona {
+    height: 425px;
+}
+
+.daily-layout img {
+    width: 66%;
+    object-fit: cover;
+}
+
+.daily-layout div {
+    width: 33%;
+}
+
+
+@media screen and (max-width: 576px) {
+    #dailyOffer {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    [href="#daily-offer"] {
+        display:none;
+    }
+}
